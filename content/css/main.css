@@ -1,0 +1,204 @@
+
+.body{
+    width: 300px;
+    height: 400px;
+    background-color: orange;
+    position: absolute;
+    top: 250px;
+    left: 292px;
+   border-top-left-radius: 10%;
+   border-top-right-radius: 10%;
+   z-index: 2;
+}
+
+.head{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 60px;
+    left: 361px;
+}
+.neck{
+    width: 50px;
+    height: 100px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 150px;
+    left: 418px;
+}
+.leg1{
+    width: 70px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 650px;
+    left: 293px;
+}
+
+.leg2{
+    width: 70px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 650px;
+    left: 522px;
+}
+.hand1{
+    width: 40px;
+    height: 300px;
+    background-color:blanchedalmond;
+    position: absolute;
+    top: 242px;
+    left: 184px;
+    transform: rotate(45deg);
+    animation: alternate-reverse 3s top infinite;
+}
+
+@keyframes top{
+    0%{
+        top: 242px;
+    left: 184px;
+    transform: rotate(45deg);
+    }
+    100%{
+        top: 33px;
+    left: 184px;
+    transform: rotate(135deg);
+    }
+}
+
+.hand2{
+    width: 40px;
+    height: 300px;
+    background-color:blanchedalmond;
+    position: absolute;
+    top: 242px;
+    left: 640px;
+    transform: rotate(-45deg);
+    animation:  move 3s alternate-reverse infinite ;
+    
+    
+    
+}
+@keyframes move{
+   0%{
+    top: 235px;
+    left: 640px;
+    transform: rotate(135deg);
+    
+   }
+   100%{
+    top: 52px;
+    left: 640px;
+    transform: rotate(45deg);
+   
+    
+   
+   }
+}
+
+.eye1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 118px;
+    left: 392px;
+    animation: left 1s infinite alternate-reverse;
+    
+}
+@keyframes left{
+    0%{
+        left: 399px;
+    }
+    25%{
+        top: 125px;
+    }
+    50%{
+       left: 392px;
+        
+    }
+    100%{
+       top: 118px;
+        
+    }
+}
+
+.eye2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   border: 2px solid black;
+    position: absolute;
+    top: 122px;
+    left: 466px;
+    animation: right 1s infinite alternate-reverse;
+}
+
+@keyframes right{
+    0%{
+        left: 461px;
+         
+       
+    }
+   
+    100%{
+       left: 470px;
+        
+    }
+   
+}
+
+
+.eyebrow1{
+    width: 22px;
+    height: 5px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 391px;
+}
+
+.eyebrow2{
+    width: 22px;
+    height: 5px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 454px;
+}
+.mouth{
+    width: 20px;
+    height: 10px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 2px solid red;
+    position: absolute;
+    top: 161px;
+    left: 425px;
+    
+}
+.shoe1{
+    width: 150px;
+    height: 70px;
+    background-color: brown;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    top: 818px;
+    left: 521px;
+}
+
+.shoe2{
+    width: 150px;
+    height: 70px;
+    background-color: brown;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    position: absolute;
+    top: 818px;
+    left: 213px;
+}
